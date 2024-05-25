@@ -37,7 +37,6 @@ class Department:
         for employee in self.employees:
             print(f"{employee.name} - {employee.position}")
 
-# Приклад використання:
 employee1 = Employee("Вітковська Діана", "Менеджер", 20000)
 employee2 = Employee("Басараб Максим", "Аналітик", 25000)
 
